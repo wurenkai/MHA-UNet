@@ -43,3 +43,7 @@ First, in the test_Explainable.py file, you should change the address of the che
 python test_Explainable.py
 ```
 - After testing, you could obtain the outputs in './results/'. EICA is calculated for each case. EICA threshold defaults to 225. The final display 'Detected as true(number):' is the number of all detected as positive.
+
+## Acknowledgement
+This repo benefits from awesome works of [HorNet](https://github.com/raoyongming/HorNet), [MHorUNet](https://github.com/wurenkai/MHorUNet).
+
