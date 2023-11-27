@@ -27,7 +27,7 @@ For training and evaluating on ISIC 2018, pH2, NormalSkin and Kaggle95 follow th
 *B.Model weight* </br>
 The model weight pth file can be obtained from  </br>
 [Google Drive](https://drive.google.com/file/d/1LffUUhT1eiSVeLAOlLCg_cBbOjSaaows/view?usp=sharing). </br>
-[Baidu Drive](btsd)](https://pan.baidu.com/s/1NjkumS8LaHJtTbOZxfqtkQ) </br>
+[Baidu Drive(btsd)](https://pan.baidu.com/s/1NjkumS8LaHJtTbOZxfqtkQ) </br>
 
 **2. Train the MHA-UNet.** </br>
 ```
