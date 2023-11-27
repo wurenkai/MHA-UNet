@@ -6,9 +6,6 @@
 
 </div>
 
-![Fig_4_cp_ISIC17181](https://github.com/wurenkai/MHA-UNet/assets/124028634/2dd8ec5c-f235-474d-9f86-afc268da5454)
-
-
 **0. Main Environments**
 - python 3.8
 - pytorch 1.8.0
@@ -39,6 +36,7 @@ First, in the test.py file, you should change the address of the checkpoint in '
 python test.py
 ```
 - After testing, you could obtain the outputs in './results/'
+![Fig_4_cp_ISIC17181](https://github.com/wurenkai/MHA-UNet/assets/124028634/51baf51c-4e9c-464d-a6ab-669a6648fb45)
 
 **4. Get the MHA-UNet explainable results map and EICA calculations.**
 First, in the test_Explainable.py file, you should change the address of the checkpoint in 'resume_model' and fill in the location of the test data in 'data_path'.
