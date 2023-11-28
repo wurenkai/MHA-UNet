@@ -13,7 +13,7 @@
 - pytorch 1.8.0
 - torchvision 0.9.0
 
-**1. Prepare the dataset and model weight.**</br>
+**1. Prepare the Dataset and Pretrained weights.**</br>
 
 *A.Dataset* </br>
 1- Download the ISIC 2017 train dataset from [this](https://challenge.isic-archive.com/data) link and extract both training dataset and ground truth folders inside the `/data/dataset_isic17/`. </br>
@@ -26,8 +26,8 @@ For training and evaluating on ISIC 2018, pH2, NormalSkin and Kaggle95 follow th
 3- Download the NormalSkin dataset from [this](https://universe.roboflow.com/janitha-prathapa/normalskin) link. </br>
 4- Download the Kaggle95 dataset from [this](https://www.kaggle.com/datasets/ahdasdwdasd/our-normal-skin/data) link. </br>
 
-*B.Model weight* </br>
-The model weight pth file can be obtained from  </br>
+*B.Pretrained weights* </br>
+The pretrained weights pth file can be obtained from  </br>
 [Google Drive](https://drive.google.com/file/d/1LffUUhT1eiSVeLAOlLCg_cBbOjSaaows/view?usp=sharing). </br>
 [Baidu Drive(btsd)](https://pan.baidu.com/s/1NjkumS8LaHJtTbOZxfqtkQ) </br>
 
