@@ -19,8 +19,7 @@
 
 **0. Main Environments.**
 - python 3.8
-- pytorch 1.8.0
-- torchvision 0.9.0
+- pytorch 1.12.0
 
 **1. Prepare the Dataset and Pretrained weights.**</br>
 
