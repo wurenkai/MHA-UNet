@@ -59,6 +59,17 @@ python test_Explainable.py
 ```
 - After testing, you could obtain the outputs in './results/'. EICA is calculated for each case. EICA threshold defaults to 225. The final display 'Detected as true(number):' is the number of all detected as positive. </br>
 
+## Citation
+If you find this repository helpful, please consider citing:
+```
+@article{wu2023only,
+  title={Only Positive Cases: 5-fold High-order Attention Interaction Model for Skin Segmentation Derived Classification},
+  author={Wu, Renkai and Liu, Yinghao and Liang, Pengchen and Chang, Qing},
+  journal={arXiv preprint arXiv:2311.15625},
+  year={2023}
+}
+```
+
 ## Acknowledgement </br>
 This repo benefits from awesome works of [HorNet](https://github.com/raoyongming/HorNet), [MHorUNet](https://github.com/wurenkai/MHorUNet).
 
