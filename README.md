@@ -9,13 +9,15 @@
 </div>
 
 ## News🚀
-(2023.11.28) *The arXiv paper version is publicly available.*
+(2023.12.01) ***The process and code for processing negative samples used to test the classification ability of the model is now online***🔥🔥
 
-(2023.11.28) *You can download weight files of MHA-UNet here.[Google Drive](https://drive.google.com/file/d/1LffUUhT1eiSVeLAOlLCg_cBbOjSaaows/view?usp=sharing) [Baidu Drive(btsd)](https://pan.baidu.com/s/1NjkumS8LaHJtTbOZxfqtkQ) .* 🔥
+(2023.11.28) ***The arXiv paper version is publicly available***📃📃
 
-(2023.11.26) *The project code has been uploaded.*
+(2023.11.28) ***You can download weight files of MHA-UNet here*** [Google Drive](https://drive.google.com/file/d/1LffUUhT1eiSVeLAOlLCg_cBbOjSaaows/view?usp=sharing) [Baidu Drive(btsd)](https://pan.baidu.com/s/1NjkumS8LaHJtTbOZxfqtkQ) . 🔥
 
-(2023.11.25) *The first edition of our paper has been uploaded to arXiv.* 📃
+(2023.11.26) ***The project code has been uploaded***
+
+(2023.11.25) ***The first edition of our paper has been uploaded to arXiv*** 📃
 
 **0. Main Environments.**
 - python 3.8
@@ -33,6 +35,18 @@ For training and evaluating on ISIC 2018, pH2, NormalSkin and Kaggle95 follow th
 2- Download the pH2 dataset from [this](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) link and extract it then Run ` Prepare_PH2_test.py` for data preperation and dividing data to train,validation and test sets. </br>
 3- Download the NormalSkin dataset from [this](https://universe.roboflow.com/janitha-prathapa/normalskin) link. </br>
 4- Download the Kaggle95 dataset from [this](https://www.kaggle.com/datasets/ahdasdwdasd/our-normal-skin/data) link. </br>
+5- The NormalSkin dataset and the Kaggle95 dataset were used as negative samples to test the model classification ability. For preparing these negative test samples, the data can be processed in the following way: </br>
+#0 The negative dataset is without segmentation labels. It is possible to generate the same number of all-black labels as the original image in the following way: </br>
+```
+python generate_black.py
+```
+It should be noted that the number of generated images in the generate_black.py file needs to be modified. </br>
+
+#1 When the same number of all-black labels are available, the following command is executed to generate test data: </br>
+```
+python Prepare_Neg_test.py
+```
+It should be noted that the number of images in the Prepare_Neg_test.py file needs to be modified. </br>
 
 *B.Pretrained weights* </br>
 The pretrained weights pth file can be obtained from  </br>
