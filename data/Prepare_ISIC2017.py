@@ -1,8 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jun  8 18:15:43 2019
+Code created on Sat Jun  8 18:15:43 2019
 @author: Reza Azad
 """
+
+"""
+Reminder Created on December 6, 2023. 
+@author: Renkai Wu
+1.Note that the scipy package should need to be degraded. Otherwise, you need to modify the following code. ##scipy==1.2.1
+2.Add a name that displays the file to be processed. If it does not appear, the output npy file is incorrect.
+3.When Dataset_add uses the relative path, you need to change the start to './'.
+"""
+
 import h5py
 import numpy as np
 import scipy.io as sio
@@ -15,7 +24,7 @@ width  = 256
 channels = 3
 
 ############################################################# Prepare ISIC 2017 data set #################################################
-Dataset_add = '/ISIC2017/'
+Dataset_add = './ISIC2017/'
 Tr_add = 'ISIC2017_Task1-2_Training_Input'
 
 Tr_list = glob.glob(Dataset_add+ Tr_add+'/*.jpg')
@@ -24,6 +33,7 @@ Data_train_2017    = np.zeros([2000, height, width, channels])
 Label_train_2017   = np.zeros([2000, height, width])
 
 print('Reading ISIC 2017')
+print(Tr_list)
 for idx in range(len(Tr_list)):
     print(idx+1)
     img = sc.imread(Tr_list[idx])
