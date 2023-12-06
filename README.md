@@ -9,6 +9,8 @@
 </div>
 
 ## News🚀
+(2023.12.06) ***Prepare_ISIC2017.py file to include reminders. Please prepare the data according to the reminders, otherwise there may be an error in preparing the file***✅
+
 (2023.12.01) ***The process and code for processing negative samples used to test the classification ability of the model is now online***🔥🔥
 
 (2023.11.28) ***The arXiv paper version is publicly available***📃📃
