@@ -9,6 +9,8 @@
 </div>
 
 ## News🚀
+(2024.03.02) ***Add video to project page***
+
 (2023.12.06) ***Prepare_ISIC2017.py file to include reminders. Please prepare the data according to the reminders, otherwise there may be an error in preparing the file***✅
 
 (2023.12.01) ***The process and code for processing negative samples used to test the classification ability of the model is now online***🔥🔥
@@ -20,6 +22,12 @@
 (2023.11.26) ***The project code has been uploaded***🔥
 
 (2023.11.25) ***The first edition of our paper has been uploaded to arXiv*** 📃
+
+
+
+https://github.com/wurenkai/MHA-UNet/assets/124028634/921049af-4797-4db6-b6bf-b727df82ba56
+
+
 
 **0. Main Environments.**
 - python 3.8
