@@ -37,7 +37,7 @@ https://github.com/wurenkai/MHA-UNet/assets/124028634/921049af-4797-4db6-b6bf-b7
 
 *A.Dataset* </br>
 1- Download the ISIC 2017 train dataset from [this](https://challenge.isic-archive.com/data) link and extract both training dataset and ground truth folders inside the `/data/dataset_isic17/`. </br>
-2- Run `Prepare_ISIC2017.py` for data preperation and dividing data to train,validation and test sets. </br>
+2- Run `Prepare_ISIC2017.py` for data preparation and dividing data to train,validation and test sets. </br>
 
 **Notice:**</br>
 For training and evaluating on ISIC 2018, pH2, NormalSkin and Kaggle95 follow the bellow steps: :</br>
