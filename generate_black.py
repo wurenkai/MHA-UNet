@@ -2,6 +2,7 @@ import os
 from PIL import Image
 import numpy as np
 
+
 folder = 'masks_black'
 if not os.path.exists(folder):
     os.makedirs(folder)
