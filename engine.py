@@ -10,6 +10,7 @@ import torch.nn.functional as F
 from PIL import Image
 
 
+
 def train_one_epoch(train_loader,
                     model,
                     criterion, 
