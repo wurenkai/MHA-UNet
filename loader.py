@@ -12,6 +12,7 @@ from scipy import ndimage
 from utils import *
 
 
+
 # ===== normalize over the dataset
 def dataset_normalized(imgs):
     imgs_normalized = np.empty(imgs.shape)
