@@ -3,6 +3,7 @@
 # Only Positive Cases: 5-fold High-order Attention Interaction Model for Skin Segmentation Derived Classification
   
   Renkai Wu, Yinghao Liu, Pengchen Liang, Guochen Ning* and Qing Chang* </br>
+  [arXiv Version](https://arxiv.org/abs/2311.15625)
 
 </div>
 
