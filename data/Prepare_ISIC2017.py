@@ -18,6 +18,7 @@ import scipy.io as sio
 import scipy.misc as sc
 import glob
 
+
 # Parameters
 height = 256
 width  = 256
