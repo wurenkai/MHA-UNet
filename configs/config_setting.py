@@ -4,6 +4,7 @@ import torch
 
 from datetime import datetime
 
+
 class setting_config:
     """
     the config of training setting.
