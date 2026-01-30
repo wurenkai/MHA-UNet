@@ -2,8 +2,8 @@
 
 # Only Positive Cases: 5-fold High-order Attention Interaction Model for Skin Segmentation Derived Classification
   
-  Renkai Wu, Yinghao Liu, Pengchen Liang, Guochen Ning* and Qing Chang* </br>
-  [arXiv Version](https://arxiv.org/abs/2311.15625)
+  Renkai Wu, Junwei Liu, Yinghao Liu, Pengchen Liang, Guochen Ning* and Qing Chang* </br>
+  [IEEE BIBM 25](https://doi.org/10.1109/BIBM66473.2025.11356752)
 
 </div>
 
@@ -69,11 +69,13 @@ python test_Explainable.py
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-@article{wu2023only,
-  title={Only Positive Cases: 5-fold High-order Attention Interaction Model for Skin Segmentation Derived Classification},
-  author={Wu, Renkai and Liu, Yinghao and Liang, Pengchen and Chang, Qing},
-  journal={arXiv preprint arXiv:2311.15625},
-  year={2023}
+@INPROCEEDINGS{11356752,
+  author={Wu, Renkai and Liu, Junwei and Liu, Yinghao and Liang, Pengchen and Ning, Guochen and Chang, Qing},
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+  title={Only Positive Cases: 5-Fold High-Order Spatial Attention Interaction Model for Skin Segmentation Derived Classification}, 
+  year={2025},
+  pages={4257-4262},
+  doi={10.1109/BIBM66473.2025.11356752}}
 }
 ```
 
